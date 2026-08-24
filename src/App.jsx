@@ -104,7 +104,7 @@ function App() {
           <h1>How Much Is Manual COI Tracking Costing You?</h1>
           <p>
             Most teams underestimate the true cost of chasing certificates, verifying coverage,
-            and managing vendor compliance by hand. Find out in 30 seconds.
+            and managing vendor compliance. Find out in 30 seconds.
           </p>
         </div>
       </header>
@@ -359,8 +359,8 @@ function App() {
 
       <footer className="footer">
         <p>
-          Built by Leo Palmaro as a product marketing concept for the insurance compliance space.
-          <br />Not affiliated with TrustLayer, Inc.
+          Built by <a href="https://www.linkedin.com/in/leo-palmaro" target="_blank" rel="noopener noreferrer">Leo Palmaro</a> · <a href="https://github.com/LeoPalmaro/trustlayer-coi-calculator" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <br />Product marketing concept. Not affiliated with TrustLayer, Inc.
         </p>
       </footer>
     </>

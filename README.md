@@ -1,8 +1,35 @@
-# React + Vite
+# COI Compliance Cost Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive cost calculator that helps risk managers quantify the true cost of manual Certificate of Insurance (COI) tracking and see what automation could save them.
 
-Currently, two official plugins are available:
+**Live:** [trustlayer-coi-calculator.vercel.app](https://trustlayer-coi-calculator.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What it does
+
+- Five adjustable inputs (vendor count, time per vendor, staff cost, incident frequency, incident cost) calculate annual compliance spend in real time
+- Breaks costs into labor, risk exposure, and administrative overhead with visual bars
+- Before/after comparison shows projected savings with automated COI tracking
+- Two conversion paths: free consultation CTA and email report capture
+- Qualifying fields (industry, company size, current process) for lead enrichment
+- Fully responsive, works on desktop and mobile
+
+## Why I built it
+
+This is a product marketing concept for [TrustLayer](https://www.trustlayer.io), built to demonstrate how an interactive tool can educate prospects on their pain while generating qualified leads. The calculator turns "how much does this cost us?" into a shareable, actionable number that a risk manager can take to their CFO.
+
+## Tech
+
+- React + Vite
+- Plain CSS (no frameworks)
+- Deployed on Vercel
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Author
+
+Built by [Leo Palmaro](https://www.linkedin.com/in/leo-palmaro). Not affiliated with TrustLayer, Inc.

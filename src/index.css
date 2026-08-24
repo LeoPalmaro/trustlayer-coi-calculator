@@ -801,6 +801,12 @@ input[type="range"]::-moz-range-thumb {
   text-align: center;
 }
 
+.social-proof-icon {
+  color: var(--body-light);
+  margin-bottom: 6px;
+  display: flex;
+}
+
 .social-proof-number {
   font-family: var(--font-body);
   font-size: 28px;
@@ -833,6 +839,18 @@ input[type="range"]::-moz-range-thumb {
   font-size: 14px;
   color: var(--body-light);
   line-height: 1.6;
+}
+
+.footer a {
+  color: var(--logo-green);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.footer a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 /* ── Responsive ── */
