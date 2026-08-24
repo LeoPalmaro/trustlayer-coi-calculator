@@ -316,7 +316,7 @@ function App() {
           </div>
           <div className="cta-secondary">
             <h3>Share this report with your team</h3>
-            <p>We'll email you a summary with your numbers, ready to forward to the person who approves the budget.</p>
+            <p>We'll email you a summary with your numbers, ready to share or forward.</p>
             {!emailSent ? (
               <form className="email-form" onSubmit={handleEmailSubmit}>
                 <input
